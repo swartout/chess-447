@@ -1,3 +1,4 @@
 chess
 torch
 numpy
+transformers
