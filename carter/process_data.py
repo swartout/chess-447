@@ -75,7 +75,7 @@ def get_char_emb(pgns: List[str]) -> Dict[str, int]:
 
 
 def board_to_list(board: chess.Board, board_emb: Dict[int, str]) -> List[int]:
-    """Get a 8*8*12 one-hot representation of a board.
+    """Get a 12*8*8 one-hot representation of a board.
 
     Args:
         - board: chess.Board to be converted
